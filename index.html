@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlotte Carpio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul class="nav-links">
+                <li><a href="#welcome-section" class="nav-link">Welcome</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="welcome-section">
+        <h1>Hello, I'm Charlotte Carpio.</h1>
+        <p> IT Specialist and Junior Developer</p>
+    </section>
+
+    <section id="projects">
+        <h1>These are some of my projects</h1>
+        <div class="projects">    
+            <a href="#" class="project-tile" data-bs-toggle="modal" data-bs-target="#vvcKbModal">
+                <img src="./vvc-knowledgebase.png" alt="">
+                <p><span>&lt;</span>VVC Knowledgebase<span>/&gt;</span></p>
+            </a>
+            <a href="" class="project-tile" data-bs-toggle="modal" data-bs-target="#vvcTicketModal">
+                <img src="./vvc-ticketing.png" alt="">
+                <p><span>&lt;</span>VVC Ticketing<span>/&gt;</span></p>
+            </a>
+            <a href="" class="project-tile" data-bs-toggle="modal" data-bs-target="#surveyFormModal">
+                <img src="./surveyformsPH.png" alt="">
+                <p><span>&lt;</span>Survey Forms<span>/&gt;</span></p>
+            </a>
+        </div>   
+    </section>
+
+    <section id="skillset">
+      <h1>Skill Set</h1>
+      <div class="skillset">
+        <div class="skill">
+          <h3>Technical Support</h3>
+          <ul> 
+            <li>Hardware & Software Troubleshooting</li>
+            <li>Ticketing Management</li>
+          </ul>
+        </div>
+
+        <div class="skill">
+          <h3>IT Administration</h3>
+          <ul>
+            <li>Microsoft Office 365</li>
+            <li>Asset Management</li>
+            <li>Knowledgebase</li>
+          </ul>
+        </div>
+
+        <div class="skill">
+          <h3>Web Development</h3>
+          <ul>
+            <li>HTML & CSS</li>
+            <li>WordPress</li>
+            <li>cPanel</li>
+            <li>GitHub</li>
+            <li>MySQL</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact">
+        <h1>Get in Touch!</h1>
+        <p class="coffee-question"> I'm open to collaborations and opportunities (◕‿◕)</p>
+        <div class="social-medias">
+            <a href="mailto:carpiocharlotte@gmail.com" class="social-media">
+                <i class="ri-mail-send-fill ri-2x"></i>
+                <p>Gmail</p>
+            </a>
+            <a href="https://www.linkedin.com/in/cocarpio/" class="social-media" target="_blank">
+                <i class="ri-linkedin-box-fill ri-2x"></i>
+                <p>Linkedin</p>
+            </a>
+            <a href="/Charlotte_Carpio_Resume.pdf" class="social-media" target="_blank">
+                <i class="ri-file-download-fill ri-2x"></i>
+                <p>Resume</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- Projects | VVC Knowledgebase Modal -->
+    <div class="modal fade" id="vvcKbModal" tabindex="-1" aria-labelledby="vvcKbModal" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Villaruz, Villaruz & Co., CPAs Knowledgebase Website</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="/vvc-knowledgebase.png" width="1000px" alt="">
+              <hr>
+              <p>This is a knowledgebase website from my previous work. It was built using WordPress, and I was responsible for 
+                maintaining and uploading content. The primary focus of this website was to provide technical documentations and 
+                resources to users.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Projects | VVC Ticketing Modal -->
+      <div class="modal fade" id="vvcTicketModal" tabindex="-1" aria-labelledby="vvcTicketModal" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Villaruz, Villaruz & Co., CPAs Ticketing System</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="/vvc-ticketing-old.jpg" width="1000px" alt="">
+                <figcaption>Old Design</figcaption>
+                <br>
+                <img src="/vvc-ticketing.png" width="1000px" alt="">
+                <figcaption>Revamped Design</figcaption>
+                <hr>
+              <p>I revamped the design of a ticketing website, making use of modern colors and design elements to match the company's 
+                color palette. <br> This project involved editing core files and implementing changes using OsTicket, HTML, and CSS technologies.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Projects | SurveyForm Modal -->
+      <div class="modal fade" id="surveyFormModal" tabindex="-1" aria-labelledby="surveyFormModal" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">freeCodeCamp SurveyForm</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="/surveyformsPH.png" width="1000px" alt="">
+                <hr>
+              <p>I created a survey form about transportation in the Philippines as part of my Responsive Web Design certification project on freeCodeCamp. 
+                <br>The form was developed using HTML and CSS technologies.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <footer>Created by Charlotte Carpio July 2023</footer>
+</body>
+</html>
